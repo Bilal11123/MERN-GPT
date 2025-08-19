@@ -1,25 +1,26 @@
+
 # MERN-GPT
 
 A **MERN** stack (MongoDB · Express · React · Node.js) project integrating with OpenAI’s GPT for AI-powered conversational capabilities.
 
 ##  Overview
 
-This project is structured into two main parts:
-- **backend/**: Handles API endpoints, business logic, and interaction with OpenAI and the database.
-- **frontend/**: A React-based client for chat interface and user interactions.
+##  Features
 
----
+- **Backend (Node + Express + TypeScript)**:
+  - Secure user authentication with JWT & HTTP-only cookies
+  - Input validation using express-validator
+  - MongoDB-based chat and user storage
+  - OpenAI (or similar) integration for AI-powered responses (if applicable)
 
-##  Features *(Customize as needed)*
+- **Frontend (React + Vite)**:
+  - Modern chat UI built with Material-UI (MUI)
+  - Responsive design
+  - Chat interface with message context preserved
 
-- Chat interface built with React
-- Node + Express backend serving the API
-- MongoDB for storing chat history (optional)
-- Integration with OpenAI GPT (GPT-3 or GPT-3.5-Turbo)
-- Basic environment configuration for local development
-
----
-
+- **Shared Tools & Tech**:
+  - Full TypeScript support throughout the stack
+  - ESLint and formatting tools for consistent code quality
 
 ---
 
