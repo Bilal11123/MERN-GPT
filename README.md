@@ -37,7 +37,8 @@ cd backend
 npm install
 npm run dev
 ```
-#### MAke a .env file
+#### Make a .env file
+```bash
 OPEN_AI_SECRET= YOUR OPEN AI SECRET
 OPEN_AI_ORGANIZATION_ID= YOUR OPEN AI ORGANIZATION ID
 MONGODB_URL= YOUR MONGODB ATLAS URL
@@ -45,6 +46,7 @@ JWT_SECRET= RANDOM STRING
 COOKIE_SECRET= RANDOM STRING
 PORT=5000
 MONGODB_PASSWORD= YOUR MONGO PASSWORD
+```
 
 ### 3. make frontend
 open another cmd
